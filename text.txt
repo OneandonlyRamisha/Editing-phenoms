@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Editing Phenoms</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="hero-section">
+        <div class="center">
+          <h2 class="hero-sub-heading">Attention Content Creators</h2>
+          <h1 class="hero-heading">
+            Transform Your Content Into
+            <span class="highlight">Leads</span> With Exceptional Video Editing
+          </h1>
+
+          <h4 class="hero-subheader">
+            Worked with over 20+ clients and editied 300+ High Quality Videos
+            That Converted Content Into Leads
+          </h4>
+        </div>
+        <div class="cta-container">
+          <a href="#" class="hero-cta">Book Your Free Call Now</a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*****************GENERAL************************/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Satoshi", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: #000;
+}
+
+p {
+  font-family: "Satoshi", sans-serif;
+}
+a {
+  font-family: "Satoshi", sans-serif;
+
+  text-decoration: none;
+}
+
+.center {
+  margin: 0 auto;
+  width: 85rem;
+}
+
+/******************HERO SEction****************/
+
+.hero-section {
+  min-height: 100vh;
+  background: linear-gradient(to top left, #000 67%, #fff 150%);
+
+  overflow: hidden;
+}
+
+.hero-heading {
+  background: linear-gradient(90deg, #ffffff, #a0a0a0); /* Gradient colors */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; /* Makes the text color transparent */
+  background-clip: text;
+  text-fill-color: transparent; /* For Firefox */
+  font-size: 6.4rem;
+  text-align: center;
+  margin-top: 1.8rem;
+}
+
+.hero-sub-heading {
+  color: #a5ff5f;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 9.4rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.hero-subheader {
+  font-size: 1.6rem;
+  margin-top: 2.4rem;
+  color: #b8b8b8;
+  text-align: center;
+}
+
+.cta-container {
+  text-align: center;
+  margin-top: 6.4rem;
+}
+
+.hero-cta {
+  /* color: #fff;
+    /* background-color: #00A9E0; */
+  padding: 2.5rem 3.7rem;
+  font-size: 2.2rem;
+  border-radius: 123123123rem;
+  color: #000;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+
+  background-image: linear-gradient(
+    to right,
+    #a5ff5f,
+    /* light green */ #7fff4d,
+    /* medium green */ #4cff2e,
+    /* darker green */ #29cc19 /* dark green */
+  );
+  box-shadow: 0 4px 15px 0 rgba(68, 238, 26, 0.75);
+}
+
+.hero-cta:focus {
+  outline: none;
+}
+
+.hero-cta:hover {
+  /* background-color: #fff;
+  color: #00a9e0; */
+
+  background-position: 100% 0;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
