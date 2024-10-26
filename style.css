@@ -125,16 +125,19 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 3rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
 video {
-  width: 80%;
+  width: 100%;
   align-self: center;
   border-radius: 2rem;
 }
 .testimonials div {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .star {
@@ -724,5 +727,11 @@ video {
 @media (max-width: 500px) {
   .footer-content h4 {
     font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .testimonials {
+    flex-direction: column;
   }
 }
